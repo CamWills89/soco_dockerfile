@@ -1,0 +1,19 @@
+{
+    "dbName": "secure_access_db",
+    "userDetails": {
+        "username": "secure_user",
+        "userId": "NONE",
+        "accessLevel": "elevated"
+    },
+    "time": {
+        "timestamp": 1732804800000,
+        "formattedTime": "September 26, 2024, 1:00 PM"
+    },
+    "action": {
+        "attemptType": "login",
+        "targetDatabase": "secure_access_db",
+        "reasonForFailure": "both password entry and two-factor authentication"
+    },
+    "attempts": 10,
+    "source": "user"
+}
