@@ -6,7 +6,8 @@ from typing import List, Tuple
 from llm_backend import Backend  
 from prompts import JSON_prompt, validation_prompt, corrector_prompt  
 from ibm_watsonx_ai.foundation_models.utils.enums import DecodingMethods
-
+import sys
+from flask import jsonify
 class Agent:
     def __init__(
         self,
@@ -218,7 +219,7 @@ class Agent:
         except Exception as e:
             print(f"Failed to store JSON: {e}\n")
 
-def main():
+def main(scenario: str):
     json_backend = Backend(
         model_id="meta-llama/llama-3-70b-instruct",
         model_params={
@@ -259,7 +260,7 @@ def main():
         max_iterations=5
     )
 
-    user_input = "On September 26, 2024, at 1:00 PM, elevated user secure_user attempted to log into secure_access_db but failed both password entry and two-factor authentication, resulting in 10 consecutive failed attempts within 10 minutes."
+    user_input = scenario
     try:
         final_jsons = agent.run(user_input)
         print("\nFinal Validated JSONs:")
@@ -267,10 +268,17 @@ def main():
             for idx, json_obj in enumerate(final_jsons):
                 print(f"\nJSON #{idx + 1}:")
                 print(json.dumps(json_obj, indent=4))
+                with open(f'file{idx}.json', 'w') as f:
+                    json.dump(json_obj, f)
+                
         else:
             print(json.dumps(final_jsons, indent=4))
+            with open(f'file.json', 'w') as f:
+                    json.dump(final_jsons, f)
+        
+        return final_jsons
     except Exception as e:
         print(f"Error: {e}")
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1])
