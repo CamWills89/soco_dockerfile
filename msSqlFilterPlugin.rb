@@ -61,29 +61,29 @@ if [succeeded] == "True" {
   if [isSuccess] == "True" {
       ruby { code => 'event.set("[GuardRecord][data][construct]", nil)' }
       mutate { add_field => { "[GuardRecord][data][originalSqlCommand]" => "%{statement}" }}
-      ruby { code => 'event.set("[GuardRecord][exception]", nil)' }
-  }
-  else {
-      mutate { add_field => { "[GuardRecord][exception][exceptionTypeId]" => "LOGIN_FAILED" }}
-      mutate { replace => { "[GuardRecord][exception][description]" => "%{statement}" }}
-      ruby { code => 'event.set("[GuardRecord][data]", nil)' }
-  }
+        ruby { code => 'event.set("[GuardRecord][exception]", nil)' }
+    }
+    else {
+        mutate { add_field => { "[GuardRecord][exception][exceptionTypeId]" => "LOGIN_FAILED" }}
+        mutate { replace => { "[GuardRecord][exception][description]" => "%{statement}" }}
+        ruby { code => 'event.set("[GuardRecord][data]", nil)' }
+    }
 } else if [succeeded] == "False" {
-  # xml {
-  #     store_xml => "false"
-  #     source => "event_data"
-  #     remove_namespaces => "false"
-  #     xpath => [
-  #         "/event/action[@name='username']/value/text()", "db_user",
-  #         "/event/action[@name='sql_text']/value/text()", "sql_string",
-  #         "/event/action[@name='server_instance_name']/value/text()", "server_host_name",
-  #         "/event/action[@name='session_id']/value/text()", "session_id",
-  #         "/event/action[@name='database_name']/value/text()", "database_name",
-  #         "/event/action[@name='client_hostname']/value/text()", "client_ip",
-  #         "/event/data[@name='message']/value/text()", "error_description",
-  #         "/event/data[@name='error_number']/value/text()", "error_number"
-  #     ]
-  # }
+  xml {
+      store_xml => "false"
+      source => "event_data"
+      remove_namespaces => "false"
+      xpath => [
+          "/event/action[@name='username']/value/text()", "db_user",
+          "/event/action[@name='sql_text']/value/text()", "sql_string",
+          "/event/action[@name='server_instance_name']/value/text()", "server_host_name",
+          "/event/action[@name='session_id']/value/text()", "session_id",
+          "/event/action[@name='database_name']/value/text()", "database_name",
+          "/event/action[@name='client_hostname']/value/text()", "client_ip",
+          "/event/data[@name='message']/value/text()", "error_description",
+          "/event/data[@name='error_number']/value/text()", "error_number"
+      ]
+  }
  mutate {
      replace => [ "error_number", "%{error_number}"]
      convert => [ "error_number", "integer"]
