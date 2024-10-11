@@ -1,0 +1,1 @@
+{"timestamp": "2022-12-14 14:32:59.4567890", "succeeded": "False", "sessionId": 1234, "databaseName": "mssql-IBM", "serverInstanceName": "ibmsql-server01", "sessionServerPrincipalName": "johnDoe", "serverPrincipalName": "johnDoe", "clientIp": "192.168.1.10", "statement": "", "applicationName": "app1234", "actionName": "DATABASE AUTHENTICATION FAILED"}
