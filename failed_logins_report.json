@@ -1,0 +1,31 @@
+HTTP/1.1 404 
+X-Permitted-Cross-Domain-Policies: none
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://ibm.biz/GuardiumUpdateCheck https://www.youtube.com https://s.ytimg.com  https://*.ibm.com; img-src 'self' data: https://*.ibm.com https://i.ytimg.com ; connect-src 'self'; frame-src 'self' https: https://www.youtube.com duosecurity.com; frame-ancestors 'self'; style-src 'self' https: 'unsafe-inline'; font-src 'self' https: 'unsafe-inline'
+Set-Cookie: JSESSIONID=35C58483FF42D01000D4C2F768BA9424; Path=/; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Content-Type-Options: nosniff
+Content-Type: text/html
+Content-Length: 451
+Date: Thu, 17 Oct 2024 16:07:32 GMT
+Server: 98e43675-325e-4475-8041-cab564b52392
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta HTTP-EQUIV="content-type" CONTENT="text/html; charset=UTF-8"/>
+<title>IBM Guardium - Error</title>
+<link rel="stylesheet" type="text/css" href="/css/guardium.css"/>
+</head>
+<body>
+<div class='PageBanner'></div>
+<br/>
+<br/>
+<h2>There has been an Error. Please Contact your System Administrator</h2>
+</body>
+</html>
