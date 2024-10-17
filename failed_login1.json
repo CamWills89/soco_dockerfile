@@ -1,0 +1,23 @@
+HTTP/1.1 200 
+X-Permitted-Cross-Domain-Policies: none
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://ibm.biz/GuardiumUpdateCheck https://www.youtube.com https://s.ytimg.com  https://*.ibm.com; img-src 'self' data: https://*.ibm.com https://i.ytimg.com ; connect-src 'self'; frame-src 'self' https: https://www.youtube.com duosecurity.com; frame-ancestors 'self'; style-src 'self' https: 'unsafe-inline'; font-src 'self' https: 'unsafe-inline'
+Set-Cookie: JSESSIONID=A5725A65220581F744147903C3C174BE; Path=/; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: max-age=86400
+Expires: Fri, 18 Oct 2024 17:50:26 GMT
+Access-Control-Allow-Methods: POST, GET,  PUT, DELETE
+Access-Control-Allow-Headers: authorization, origin, X-Requested-With, Content-Type, Accept
+Access-Control-Max-Age: 18000
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Content-Length: 191
+Date: Thu, 17 Oct 2024 17:50:26 GMT
+Server: 98e43675-325e-4475-8041-cab564b52392
+
+{
+  "ErrorCode": "2001",
+  "ErrorMessage": "list_parameter_names_by_report_name: Report not found. Please check report name spelling. Call grdapi list_ef_report for all the report names. "
+}
