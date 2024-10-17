@@ -1,0 +1,21 @@
+HTTP/1.1 200 
+X-Permitted-Cross-Domain-Policies: none
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://ibm.biz/GuardiumUpdateCheck https://www.youtube.com https://s.ytimg.com  https://*.ibm.com; img-src 'self' data: https://*.ibm.com https://i.ytimg.com ; connect-src 'self'; frame-src 'self' https: https://www.youtube.com duosecurity.com; frame-ancestors 'self'; style-src 'self' https: 'unsafe-inline'; font-src 'self' https: 'unsafe-inline'
+Set-Cookie: JSESSIONID=9333393C52287DC563A6CC23BE27D3C2; Path=/; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: max-age=86400
+Expires: Fri, 18 Oct 2024 17:54:39 GMT
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Content-Length: 170
+Date: Thu, 17 Oct 2024 17:54:39 GMT
+Server: 98e43675-325e-4475-8041-cab564b52392
+
+{
+    "Report Name": "Basel II - Failed User Login Attempts",
+    "Report ID": 818,
+    "Parameter Names": "REMOTE_SOURCE, QUERY_TO_DATE, QUERY_FROM_DATE, SHOW_ALIASES"
+}
