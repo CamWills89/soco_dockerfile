@@ -1,0 +1,187 @@
+HTTP/1.1 200 
+X-Permitted-Cross-Domain-Policies: none
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://ibm.biz/GuardiumUpdateCheck  https://*.ibm.com; img-src 'self' data: https://*.ibm.com ; connect-src 'self'; frame-src 'self' https: duosecurity.com; frame-ancestors 'self'; style-src 'self' https: 'unsafe-inline'; font-src 'self' https: 'unsafe-inline'
+Set-Cookie: JSESSIONID=C385A845458AFB9E22D853518FD4246F; Path=/; Secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: max-age=86400
+Expires: Fri, 25 Oct 2024 13:42:23 GMT
+X-Content-Type-Options: nosniff
+vary: accept-encoding
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 24 Oct 2024 13:42:23 GMT
+Server: df98536e-08b1-4af8-b416-0c2f8d69915b
+
+[
+    {
+        "Message Date": "2024-10-22 17:19:53",
+        "Message Subject": "11.0p535: Patch install status",
+        "Message Text": "11.0p535: \n\nPatch install failed and did not run revert\n\nPlease attach support must_gather patch_install_issues when opening a Support ticket\n\nYou can also download the patch logs using fileserver:\n\nhttps://g11.gdemo.com:8445/log/opt-ibm-guardium-log/diag/depot/\n\n\n #include# /var/IBM/Guardium/log/diag/depot/patch_installer.log #include# /var/IBM/Guardium/log/diag/depot/status-11.0p535_Bundle_Nov_29_2023_20241022171757.log",
+        "Message STATUS": "WAIT",
+        "Message Type": "MAIL",
+        "Message Context": "MONITOR"
+    },
+    {
+        "Message Date": "2024-10-22 13:24:17",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1729617843755  group=\"Core\" signature=\"Log a Failed Login\" severity=\"INFO\" db_user=\"ROOT\" os_user=\"\" app_user=\"\" server_port=11604 server_ip=10.10.9.70 source_app=\"MYSQL\" server_name=\"RAPTOR.GDEMO.COM\" server_type=\"MYSQL\" src=\"RAPTOR.GDEMO.COM\" src_ip=10.10.9.70 analyzed_client_ip=%%analyzedClientIp request_type=\"LOGIN_FAILED\" last_error=\"1045\" start=\"2024-10-22 13:24:03\" app=\"MYSQL\" proto=\"IPC\" service_name=\"10.10.9.70:8.0.19\" cat=\"Exception\" db_name=\"\" records_affected=\"1\" command=\"\" msg=",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-22 10:21:17",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1721917812000  group=\"Core\" signature=\"Log and Alert on Repeated Login Failures\" severity=\"INFO\" db_user=\"TESTUSER\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"NON ELEVATED APP\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.3.31 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-07-25 10:30:12\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-22 10:21:17",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1721917812000  group=\"Core\" signature=\"Log a Failed Login\" severity=\"INFO\" db_user=\"TESTUSER\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"NON ELEVATED APP\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.3.31 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-07-25 10:30:12\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-22 10:21:17",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1721917812000  group=\"Core\" signature=\"Log a Failed Login\" severity=\"INFO\" db_user=\"TESTUSER\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"NON ELEVATED APP\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.3.31 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-07-25 10:30:12\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-22 10:20:17",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1721917812000  group=\"Core\" signature=\"Log a Failed Login\" severity=\"INFO\" db_user=\"TESTUSER\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"NON ELEVATED APP\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.3.31 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-07-25 10:30:12\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-22 10:18:17",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1721917812000  group=\"Core\" signature=\"Log and Alert on Repeated Login Failures\" severity=\"INFO\" db_user=\"CTESTUSER\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"NON ELEVATED APP\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.2.31 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-07-25 10:30:12\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-22 10:18:17",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1721917812000  group=\"Core\" signature=\"Log a Failed Login\" severity=\"INFO\" db_user=\"CTESTUSER\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"NON ELEVATED APP\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.2.31 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-07-25 10:30:12\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-22 10:18:17",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1718893845000  group=\"Core\" signature=\"Log a Failed Login\" severity=\"INFO\" db_user=\"AUSER1\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"APPLICATION1234\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.1.21 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-06-20 10:30:45\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-22 10:17:17",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1721917812000  group=\"Core\" signature=\"Log a Failed Login\" severity=\"INFO\" db_user=\"CTESTUSER\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"NON ELEVATED APP\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.2.31 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-07-25 10:30:12\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-18 11:53:09",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1718893845000  group=\"Core\" signature=\"Log and Alert on Repeated Login Failures\" severity=\"INFO\" db_user=\"AUSER1\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"APPLICATION1234\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.1.21 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-06-20 10:30:45\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-18 11:53:09",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1718893845000  group=\"Core\" signature=\"Log a Failed Login\" severity=\"INFO\" db_user=\"AUSER1\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"APPLICATION1234\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.1.21 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-06-20 10:30:45\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-18 11:53:09",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1718893845000  group=\"Core\" signature=\"Log a Failed Login\" severity=\"INFO\" db_user=\"AUSER1\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"APPLICATION1234\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.1.21 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-06-20 10:30:45\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-18 11:53:09",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1718893845000  group=\"Core\" signature=\"Log a Failed Login\" severity=\"INFO\" db_user=\"AUSER1\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"APPLICATION1234\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.1.21 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-06-20 10:30:45\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-18 11:52:09",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1721917812000  group=\"Core\" signature=\"Log and Alert on Repeated Login Failures\" severity=\"INFO\" db_user=\"CTESTUSER\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"NON ELEVATED APP\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.2.31 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-07-25 10:30:12\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-18 11:52:09",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1721917812000  group=\"Core\" signature=\"Log a Failed Login\" severity=\"INFO\" db_user=\"CTESTUSER\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"NON ELEVATED APP\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.2.31 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-07-25 10:30:12\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-18 11:49:09",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1721917812000  group=\"Core\" signature=\"Log a Failed Login\" severity=\"INFO\" db_user=\"MYTESTUSER\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"NON ELEVATED APP\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.1.13 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-07-25 10:30:12\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-18 11:49:09",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1718893845000  group=\"Core\" signature=\"Log a Failed Login\" severity=\"INFO\" db_user=\"ATEST_USER\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"APPLICATION1234\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.1.11 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-06-20 10:30:45\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-18 11:47:09",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1721917812000  group=\"Core\" signature=\"Log a Failed Login\" severity=\"INFO\" db_user=\"MYTESTUSER\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"NON ELEVATED APP\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.1.13 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-07-25 10:30:12\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-18 11:46:09",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1718893845000  group=\"Core\" signature=\"Log a Failed Login\" severity=\"INFO\" db_user=\"ATEST_USER\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"APPLICATION1234\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.1.11 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-06-20 10:30:45\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    },
+    {
+        "Message Date": "2024-10-18 11:46:09",
+        "Message Subject": "SQLGUARD ALERT",
+        "Message Text": "time=1718893845000  group=\"Core\" signature=\"Log a Failed Login\" severity=\"INFO\" db_user=\"ATEST_USER\" os_user=\"\" app_user=\"\" server_port=0 server_ip=0.0.0.0 source_app=\"APPLICATION1234\" server_name=\"IBMSQL-SERVER01\" server_type=\"MS SQL SERVER\" src=\"NA\" src_ip=192.168.1.11 analyzed_client_ip=%%analyzedClientIp request_type=\"UNKNOWN\" last_error=\"\" start=\"2024-06-20 10:30:45\" app=\"UC: MS SQL SERVER\" proto=\"TCP\" service_name=\"MSSQL-IBM\" cat=\"Exception\" db_name=\"MSSQL-IBM\" records_affected=\"1\" command=\"\" msg=NA",
+        "Message STATUS": "SENT",
+        "Message Type": "SYSLOG",
+        "Message Context": "ALERT"
+    }
+]
