@@ -1,0 +1,32 @@
+HTTP/1.1 200 
+X-Permitted-Cross-Domain-Policies: none
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://ibm.biz/GuardiumUpdateCheck  https://*.ibm.com; img-src 'self' data: https://*.ibm.com ; connect-src 'self'; frame-src 'self' https: duosecurity.com; frame-ancestors 'self'; style-src 'self' https: 'unsafe-inline'; font-src 'self' https: 'unsafe-inline'
+Set-Cookie: JSESSIONID=B31E73456BFFF0CE1C6425A31DFF529C; Path=/; Secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: max-age=86400
+Expires: Thu, 31 Oct 2024 19:38:15 GMT
+Access-Control-Allow-Methods: POST, GET,  PUT, DELETE
+Access-Control-Allow-Headers: authorization, origin, X-Requested-With, Content-Type, Accept
+Access-Control-Max-Age: 18000
+X-Content-Type-Options: nosniff
+Content-Type: application/json;charset=UTF-8
+Content-Length: 374
+Date: Wed, 30 Oct 2024 19:38:15 GMT
+Server: df98536e-08b1-4af8-b416-0c2f8d69915b
+
+[
+    {
+        "Timestamp": "2024-10-22 13:24:04",
+        "Category Name": "Exception",
+        "Access Rule Description": "Log a Failed Login",
+        "Client IP": "10.10.9.70",
+        "Server IP": "10.10.9.70",
+        "DB User Name": "ROOT",
+        "Full SQL String": "",
+        "Severity Description": "INFO",
+        "Count of Policy Rule Violations": "1"
+    }
+]
