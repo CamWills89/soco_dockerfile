@@ -1,0 +1,668 @@
+HTTP/1.1 200 
+X-Permitted-Cross-Domain-Policies: none
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://ibm.biz/GuardiumUpdateCheck  https://*.ibm.com; img-src 'self' data: https://*.ibm.com ; connect-src 'self'; frame-src 'self' https: duosecurity.com; frame-ancestors 'self'; style-src 'self' https: 'unsafe-inline'; font-src 'self' https: 'unsafe-inline'
+Set-Cookie: JSESSIONID=CA42F57138D2AB842F0AC003978D6670; Path=/; Secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: max-age=86400
+Expires: Sat, 02 Nov 2024 15:41:33 GMT
+X-Content-Type-Options: nosniff
+vary: accept-encoding
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 01 Nov 2024 15:41:33 GMT
+Server: df98536e-08b1-4af8-b416-0c2f8d69915b
+
+[
+  {
+    "id": 164,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=%23%23LOGIN_DUMPER",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Session level policy"
+  },
+  {
+    "id": 147,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=ActivityInsightsPolicy+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20001,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Allow+all",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 101,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Allow-All+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "null",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20021,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Base+Policy+Dev+v1",
+    "policy_category": "Access",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 124,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Basel+II+%5Btemplate%5D",
+    "policy_category": "Compliance",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20003,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Basic+Data+Security+Policy",
+    "policy_category": "Activity",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 142,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Basic+Data+Security+Policy+%5Btemplate%5D",
+    "policy_category": "Activity",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 133,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=CCPA+for+Db2+for+z%2FOS+%5Btemplate%5D",
+    "policy_category": "Privacy",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 132,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=CCPA+%5Btemplate%5D",
+    "policy_category": "Privacy",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 129,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Data+Privacy+-+PII+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 102,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Data+Privacy+%5Btemplate%5D",
+    "policy_category": "Privacy",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20015,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Default+-+Ignore+Data+Activity+for+Unknown+Connections",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 118,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Default+-+Ignore+Data+Activity+for+Unknown+Connections+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 114,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Default+Sharepoint+Auditing+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 140,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=GDPR+FAM+%5Btemplate%5D",
+    "policy_category": "GDPR",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 131,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=GDPR+for+Db2+for+z%2FOS+%5Btemplate%5D",
+    "policy_category": "Privacy",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20018,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=GDPR+Policy",
+    "policy_category": "GDPR",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 130,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=GDPR+%5Btemplate%5D",
+    "policy_category": "Privacy",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 148,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Global+Data+Privacy+%5Btemplate%5D",
+    "policy_category": "Privacy",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 117,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Hadoop+Policy+%5Btemplate%5D",
+    "policy_category": "Activity",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20019,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=HIPAA+Policy",
+    "policy_category": "HIPAA",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 128,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=HIPAA+%5Btemplate%5D",
+    "policy_category": "Compliance",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20016,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Log+All",
+    "policy_category": "Access",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20020,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=logFullDetails",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 156,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=M-21-31-OMB+Policy+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 127,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=PCI+%5Btemplate%5D",
+    "policy_category": "Compliance",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 108,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=PCI%2C+Oracle+EBS+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 109,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=PCI%2C+SAP+%5Btemplate%5D",
+    "policy_category": "Compliance",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 103,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Privileged+Users+Monitoring+%28allow+list%29+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 111,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Privileged+Users+Monitoring+%28block+list%29+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 122,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=QRadarPolicy+%5Btemplate%5D",
+    "policy_category": "SIEM",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20002,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Risk+Assessment+Dynamic+Policy+Non-selective",
+    "policy_category": "Access",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 141,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Risk+Assessment+Dynamic+Policy+Selective+%5Btemplate%5D",
+    "policy_category": "Risk Spotter",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 143,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=SAP+HANA+Data+Monitoring+Policy+%5Btemplate%5D",
+    "policy_category": "SAP HANA",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 159,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Security+anomalies+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Session level policy"
+  },
+  {
+    "id": 152,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Security+incidents%3A+administrative+users+and+applications+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Session level policy"
+  },
+  {
+    "id": 153,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Security+incidents%3A+all+users+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Session level policy"
+  },
+  {
+    "id": 154,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Security+incidents%3A+credential+stuffing+attack+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Session level policy"
+  },
+  {
+    "id": 155,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Security+incidents%3A+repeated+failed+logins+or+possible+denial+of+service+attack+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Session level policy"
+  },
+  {
+    "id": 20009,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Smart+Assistant+CCPA",
+    "policy_category": "CCPA",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20011,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Smart+Assistant+GDPR",
+    "policy_category": "GDPR",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20014,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Smart+Assistant+PCI",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20012,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Smart+Assistant+SOX",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 125,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Sox+%5Btemplate%5D",
+    "policy_category": "Compliance",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 106,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=SOX%2C+Oracle+EBS+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 149,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=User+Activity+Monitoring+%5Btemplate%5D",
+    "policy_category": "Activity",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 105,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=Vulnerability+%26+Threats+Management+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "true",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 144,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=z%2FOS+Data+Sets+-+Privileged+Users+and+Sensitive+Objects+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 145,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=z%2FOS+DB2+-+Privileged+Users+and+Sensitive+Objetcs+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 146,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=z%2FOS+IMS+-+Privileged+Users+and+Sensitive+Objects+%5Btemplate%5D",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20006,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=%5BDAM%5D+Basic+Data+Security+Policy",
+    "policy_category": "Activity",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20010,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=%5BDAM%5D+Basic+Data+Security+Policy+2020",
+    "policy_category": "Activity",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20007,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=%5BDAM%5D+PII+Policy+2020",
+    "policy_category": "Data Privacy - PII",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20017,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=%5BDAM%5D+Zero+Trust+PII+Policy+2021",
+    "policy_category": "Data Privacy - PII",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20008,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=%5BFAM%5D+GDPR+Files+Policy",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20005,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=%5BFAM%5D+Sensitive+Files+Deletion+-+sourcecodes",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20004,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=%5BFAM%5D+Sensitive+Files+Policy",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  },
+  {
+    "id": 20013,
+    "policy_description": "https://g11.gdemo.com:8443/restAPI/policy?policyDesc=%5BFAM%5D+Windows+Files+Policy",
+    "policy_category": "",
+    "policy_baseline": "",
+    "log_flat": "false",
+    "rules_on_flat": "false",
+    "selective_audit_trail": "false",
+    "audit_pattern": "",
+    "policy_level": "Regular level policy"
+  }
+]
